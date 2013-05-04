@@ -1,0 +1,10 @@
+<snippet>
+	<description>Handlebar Template</description>
+	<content><![CDATA[<script id="tpl-$1" type="text/x-handlebards-template">
+{{#each this}}
+{{$0}}
+{{/each}}
+</script>]]></content>
+	<tabTrigger>tpl</tabTrigger>
+	<scope>-source</scope>
+</snippet>
