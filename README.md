@@ -4,5 +4,6 @@ Conveniences for front end development.
 
 Shortcuts:
 * **tpl** create a basic Handlebars.js <script> template.
+
 * **tplc** create a basic Handlebars.js var = compile() pattern.
 
