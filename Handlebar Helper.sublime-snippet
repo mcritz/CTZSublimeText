@@ -1,0 +1,8 @@
+<snippet>
+	<description>Handlebar Compile</description>
+	<content><![CDATA[var $1 = Handlebars.registerHelper('$2',function( $3 ){
+	$4
+});]]></content>
+	<tabTrigger>tplh</tabTrigger>
+	<scope>-source</scope>
+</snippet>
