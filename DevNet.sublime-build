@@ -1,0 +1,37 @@
+{
+	"cmd": ["git", "status"],
+    "variants": [
+        {
+        	"cmd": [
+        		"compass",
+        		"compile",
+        		"${project_path:config/config.rb}"
+        	],
+			"name": "Compass Compile"
+        },
+        {
+   			"cmd": [
+   				"ant",
+   				"-buildfile",
+   				"${project_path:build-ap.xml}"
+   			],
+			"name": "Compile Handlebars"
+        },
+        {
+        	"cmd": [
+	        	"phantomjs",
+	        	"$file"
+        	],
+			"name": "phantomjs (file)",
+			"selector":"source.js"
+        },
+        {
+        	"cmd": [
+	        	"phantomjs",
+	        	"/Users/mcritz/bin/runner.js",
+	        	"$file"
+        	],
+        	"name": "QUnit (file)"
+        }
+    ]
+}
