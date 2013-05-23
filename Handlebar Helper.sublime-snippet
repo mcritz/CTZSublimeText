@@ -4,5 +4,5 @@
 	$4
 });]]></content>
 	<tabTrigger>tplh</tabTrigger>
-	<scope>-source</scope>
+	<scope>source.js</scope>
 </snippet>

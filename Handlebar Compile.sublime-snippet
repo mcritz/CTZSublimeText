@@ -2,5 +2,5 @@
 	<description>Handlebar Compile</description>
 	<content><![CDATA[var $1 = Handlebars.compile( \$('tpl-$0').html() );]]></content>
 	<tabTrigger>tplc</tabTrigger>
-	<scope>-source</scope>
+	<scope>source.js</scope>
 </snippet>
